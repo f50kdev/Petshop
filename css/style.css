@@ -1,0 +1,141 @@
+.texto{
+      display:flex ;
+      justify-content: center;
+      font: "poppins";
+}
+
+
+div.destaque{
+    height: 750px;
+    
+}
+div.destaque div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+       height: 300px   ;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    div.destaque h1{
+        padding: 20px;
+        padding-bottom:1px;
+    }
+   
+div.destaque div.bast{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  gainsboro;
+    justify-content: ;
+width: 300px;
+height: 500px;
+justify-content: space-between;
+}
+
+div.destaque div.bast img{
+
+    height: 250px;
+width: 300%;
+
+}
+div.destaque div.bast div span .p1{
+    font-family: Georgia, 'Times New Roman', Times, serif,'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-size: 19px;
+    padding-bottom: 10px;
+    color: gray;
+}
+div.destaque div.bast div span .p2{
+    font-family: Georgia, 'Times New Roman', Times, serif,'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+font-weight:bolder;
+   
+
+}
+
+div.destaque div.bast div span form input {
+    height: 80%;
+    width: 117%;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid  gainsboro;
+
+    background-color: white;
+
+
+}
+
+.main{
+    height: 380px;
+    background-color: black;
+    background-image: url(../imagem/fundo.png);
+}
+
+.form input{
+    width: 200px;
+    height: 40px;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    
+}
+.form input:focus{
+    transition: all 1s;
+    background-color: rgb(86, 83, 83);
+    color: ;
+
+}
+
+.form input::placeholder{
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+  }
+::-webkit-scrollbar-track {
+    background: #F4F4F4; /* Cor do trilho da barra de rolagem */
+  }
+::-webkit-scrollbar-thumb {
+    background: #7e7876; /* Cor do polegar da barra de rolagem */
+    border-radius: 8px; /* Arredondamento do polegar da barra de rolagem */
+  }
+
+  footer{
+    padding-top: 30px;
+    display:flex;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+      }
+      .atendimento{
+         display: flex;
+      }
+  .footer-1{
+   
+  }
+
+  .footer-1 .whatsapp{
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  .endereco{
+    display: flex;
+    gap: 4px ;
+  }
+   .box-list{
+    display: flex;
+    gap: 65px;
+   }

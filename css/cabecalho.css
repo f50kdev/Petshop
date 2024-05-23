@@ -1,0 +1,87 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins";
+
+}
+
+header {
+    background: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-family: "Poppins";
+    
+
+}
+
+
+
+
+header div.menu-top-form {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 40px; */
+    /* margin-left: 40px; */
+    margin: 40px 10%;
+    max-height: 90%;
+    align-items: center;
+}
+
+header div.menu-top-form form input {
+    height: 80%;
+    width: 200%;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid  gainsboro;
+    background-color: white;
+
+
+}
+
+.menucarrinho{
+    display: flex;
+    align-items: center;
+    
+}
+.ph{
+    size: 210px;
+}
+header img{
+    width: 100%;
+}
+header div.menu-top-form div.menucarrinho a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+header div.menu-top-form div.menucarrinho img {
+    height: 30px;
+    width: 40px;
+    padding-left: 30px;
+}
+
+.submenu {
+    border-top: 1px solid  gainsboro;
+    margin-top: 40px;
+ 
+    font-weight: 5px;
+   
+
+}
+
+.submenu ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.submenu ul li {
+    display: inline-block;
+    padding: 20px;
+
+
+
+
+}
