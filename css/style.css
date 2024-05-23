@@ -182,6 +182,11 @@ input{
     border-radius: 8px; /* Arredondamento do polegar da barra de rolagem */
   }
 
+   .endereco ul{
+     display: flex;
+     gap: 10px;
+   }
+
   footer{
     padding-top: 30px;
     display:flex;
@@ -213,4 +218,17 @@ input{
    .box-list{
     display: flex;
     gap: 65px;
+   }
+
+   .submenu a:link{
+    text-decoration: none;
+    color: #9a9999;
+  
+   }
+
+   .submenu a:hover{
+    text-decoration: none;
+    color: #0f0e0e;
+    transition: all 1s;
+  
    }
