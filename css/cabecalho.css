@@ -28,14 +28,12 @@ header div.menu-top-form {
 }
 
 header div.menu-top-form form input {
-    height: 80%;
+    height: 90%;
     width: 200%;
     border-radius: 30px;
     padding: 10px;
     border: 1px solid  gainsboro;
     background-color: white;
-
-
 }
 
 .menucarrinho{
@@ -50,7 +48,7 @@ header img{
     width: 100%;
 }
 header div.menu-top-form div.menucarrinho a{
-    color: rgb(0, 0, 0);
+    color: rgb(84, 82, 82);
     text-decoration: none;
     align-items: center;
     flex-direction: column;

@@ -68,9 +68,77 @@ div.destaque div.bast div span form input {
 }
 
 .main{
-    height: 380px;
+    height: 450px;
     background-color: black;
     background-image: url(../imagem/fundo.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    
+}
+
+.teste-principapl{}
+
+ .main .teste-principapl h1{
+    margin-bottom: -44px;
+    font-size: 100px;
+    color: white;
+}
+
+.teste-principapl-2{
+    background-color: rgba(75, 74, 74, 0.318);
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+ 
+}
+
+.teste-principapl-2 img{
+    width: 100px;
+
+}
+input::placeholder{
+    color: #928a8a;
+}
+
+
+.abc a:link{
+     text-decoration: none;
+}
+
+input{
+    color: #020202;
+}
+
+.btn-compra{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: #636060;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.btn-compra:hover{
+    transition: all 1s;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: #212121;
+    color: rgb(232, 232, 232);
+    border-radius: 3px;
+
+
 }
 
 .form input{
@@ -89,12 +157,17 @@ div.destaque div.bast div span form input {
 .form input:focus{
     transition: all 1s;
     background-color: rgb(86, 83, 83);
-    color: ;
+    color:  rgb(217, 210, 210) ;
 
 }
 
 .form input::placeholder{
     text-align: center;
+}
+.icons-redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -112,13 +185,15 @@ div.destaque div.bast div span form input {
   footer{
     padding-top: 30px;
     display:flex;
-    gap: 10px;
+
     background-color: black;
     color: white;
     justify-content: space-around;
       }
       .atendimento{
          display: flex;
+        gap: 30px;
+     
       }
   .footer-1{
    
