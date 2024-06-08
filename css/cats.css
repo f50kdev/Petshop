@@ -23,8 +23,9 @@ body{
     display: flex;
     padding: 10px;
    justify-content: center;
-   background-color: rgb(36, 35, 35);
-   background-image: url(https://images.unsplash.com/photo-1562860149-691401a306f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   
+   background-image: url(../imagem/good-faces-Ue-kTU9hRIQ-unsplash.jpg);
+   background-size: cover;
    width: 300px;
    height: 180px;
    align-items: center;
@@ -59,11 +60,22 @@ body{
     padding: 06px;
     border-radius: 10px;
 
-    
 }
 input::placeholder{
     padding: 19px;
-    a
+    
+}
+
+.abc{
+    padding-top: 20px ;
+    color: rgb(49, 49, 49);
+    text-align: justify;
+    word-break: break-all;
+}
+
+.abc a:link{
+    text-decoration: none;
+    color: #b88e8e;
 }
 
 
