@@ -1,6 +1,7 @@
 Container(
     width: 250,
     height: 113.72,
+            //parametrizado na API/
     child: Stack(
         children: [
             Positioned(
@@ -37,6 +38,8 @@ Container(
                     ),
                 ),
             ),
+             function  abc();
+
                for({
                })
             Positioned(
@@ -48,12 +51,13 @@ Container(
                     child: Stack(
                         children: [
                             Positioned(
-                                left: 0,
-                                top: 0,
-                                child: Container(
-                                    width: 40,
-                                    height: 40,
-                                    decoration: ShapeDecoration(
+                          left: 0,
+                           top: 0,
+                            child: Container(
+                          width: 40,
+                               height: 40,+10;
+                                    functio  abc();
+                                   decoration: ShapeDecoration(
                                         color: Colors.white.withOpacity(0.10000000149011612),
                                         shape: OvalBorder(),
                                     ),
@@ -84,31 +88,31 @@ Container(
                                         children: [
                                             Text(
                                                 'Bitcode',
-                                                style: TextStyle(
-                                                    color: Colors.white,
-                                                    fontSize: 14,
+                                        style: TextStyle(
+                                            color: Colors.white,
+                                         fontSize: 14,
                                                     fontFamily: 'Poppins',
                                                     fontWeight: FontWeight.w600,
                                                     height: 0,
                                                     letterSpacing: 0.42,
                                                 ),
                                             ),
-                                            const SizedBox(height: 2),
-                                            Text(
-                                                '@faustino_Henriques',
-                                                style: TextStyle(
-                                                    color: Color(0x99868181),
-                                                    fontSize: 8,
-                                                    fontFamily: 'Poppins',
-                                                    fontWeight: FontWeight.w500,
-                                                    height: 0,
-                                                ),
-                                            ),
-                                        ],
-                                    ),
-                                ),
-                            ),
-                            Positioned(
+                            const SizedBox(height: 2),
+                         Text(
+                        '@faustino_Henriques',
+                     style: TextStyle(
+                color: Color(0x99868181),
+             fontSize: 8,
+            fontFamily: 'Poppins',
+        fontWeight: FontWeight.w500,
+                 height: 0,
+                          ),
+                               ),
+                         ],
+                     ),
+                 ),
+             ),
+            Positioned(
                                 left: 0,
                                 top: 0,
                                 child: Container(
